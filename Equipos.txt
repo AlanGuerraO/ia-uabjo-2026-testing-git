@@ -196,6 +196,47 @@ Código fuente (repositorio de GitHub).
 Aplicación funcional con el catálogo de locales registrados.
 
 Extras (si sobra tiempo):
-Integración del chatbot con IA conversacional para recomendar platillos o puestos según los antojos del usuario.
-Filtro de búsqueda por categorías de comida o ubicación.
+Modo de exploración usando GPS en tiempo real para orientar el mapa estelar según la posición física exacta del usuario.
+
+—––5. TiendasNeto - PROYECTO: Punto de Venta, Recomendaciones y Lista de compras con IA en una cafetería –––––
+
+Integrante 1 - Jean Alexis Buron Ojeda - alexisojeda12
+Responsabilidades dentro del equipo: Encargado de la parte de la lista de compras generada automáticamente con I.A
+Herramientas, lenguajes de programación, módulos de los que se hará cargo: Por discutir.
+
+Integrante 2 - Jacqueline Cristal Hernández Nuñez - Cristal169533
+Responsabilidades dentro del equipo: Encargada de la parte de la creación del punto de venta.
+Herramientas, lenguajes de programación, módulos de los que se hará cargo: Por discutir.
+
+Integrante 3 - Ernesto Marín Domínguez - 
+Responsabilidades dentro del equipo: Encargado de el uso de un chatbot para dar recomendaciones personalizadas con el uso de I.A 
+Herramientas, lenguajes de programación, módulos de los que se hará cargo: Por discutir.
+
+1. Propuesta general
+
+Nuestro proyecto consiste en implementar herramientas tecnológicas que ayuden a un mejor funcionamiento de una cafetería de la facultad de ciencias.
+Éstas consisten en tres soluciones, la creación de un punto de venta que nos ayude a automatizar el proceso de compra; a raíz del primer punto y con el uso de un una lista del inventario actual, usar la inteligencia artificial para que genere una lista de compras de manera automática.
+
+El segundo es un chat de recomendaciones para los clientes. El cliente podrá escribir lo que busca, por ejemplo: “quiero algo frío, dulce y sin café”, y el sistema analizará esas características para recomendar bebidas disponibles en el menú.
+
+
+2. Arquitectura y herramientas
+Para el punto de ventas vamos a usar una Base de Datos con una herramienta aún por definir, en el chatbot se verá el usarlo en WhatsApp o en Telegram, por último tentativamente se usará NotebookLM como herramienta para poder darle las ventas del día, el inventario actual para que nos genere la lista de compras.
+
+Para comprobar que funciona, utilizaremos una base de datos simulada de una cafetería con productos, inventario y ventas. También realizaremos diferentes pruebas con frases de clientes para comprobar que las recomendaciones correspondan realmente con lo que están buscando.
+
+Como funciones podríamos agregar gráficas, historial, predicción de ventas o recomendaciones más personalizadas.
+
+Al final entregaríamos el código, la base de datos, la documentación y una demostración en vivo.
+
+Consideraremos que el proyecto fue exitoso si puede identificar correctamente qué insumos deben comprarse y si las recomendaciones del chat coinciden con las características solicitadas por el cliente.
+
+La parte más riesgosa del mismo sería el manejo de la información de los usuarios como el guardado de cuentas. La prueba se puede hacer simulando una muestra de datos para nuestro mapa y probándolo nosotros mismos desde nuestros dispositivos móviles.
+
+Tipo de IA: LLM mediante API en línea — por definir.
+
+4. Alcances
+
+Métricas mínimas: Si tuviéramos poco tiempo, nuestra versión mínima tendría únicamente el registro de inventario y ventas, el cálculo de compras necesarias y el chat capaz de recomendar bebidas.
+
 
