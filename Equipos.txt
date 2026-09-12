@@ -158,9 +158,42 @@ Base de datos: SQLite (local en la app) para el catálogo básico de cuerpos cel
 Versión mínima (MVP): Una aplicación para Android ejecutable con visores VR genéricos que muestre al menos un escenario con 3 planetas y 2 constelaciones en 3D, donde al enfocar un objeto durante un tiempo determinado se active un reproductor de audio con una explicación breve generada previamente o mediante una llamada rápida a la API.
 (ficticios/reales cercanos con nombre, distancia y calificación simulada.}
 
+-------4. Merca Boot- PROYECTO: Tianguis inteligente ----------
+
+Integrante 1: Izèbel Viridiana Altamirano Carreño - Ize
+Responsabilidades dentro del equipo: Por discutir.
+Herramientas, lenguajes de programación, módulos de los que se hará cargo: Por discutir.
+
+Integrante 2: Jose David Pèrez Miguel - Dei
+Responsabilidades dentro del equipo: Por discutir.
+Herramientas, lenguajes de programación, módulos de los que se hará cargo: Por discutir.
+
+1. Propuesta general
+La propuesta general es desarrollar un mercado digital accesible (tianguis digital) asistido por un chatbot con IA que recomiende productos, platillos e ingredientes a los usuarios según sus antojos, presupuesto y la disponibilidad en tiempo real de los puestos locales. La aplicación ofrece un flujo conversacional e intuitivo que conecta a compradores con comercios locales tradicionales.
+
+Usuarios finales:
+Compradores y consumidores: Personas interesadas en pedir comida, descubrir puestos locales o encontrar ingredientes según sus antojos.
+Comerciantes locales: Vendedores de puestos y mercados tradicionales que buscan publicar sus productos y gestionar pedidos digitalmente.
+
+Proyectos parecidos:
+Uno de los software que se puede parecer al nuestro es "Uber Eats" o "Rappi". El nuestro es muy local (colonia/municipio), usa IA conversacional para interpretar antojos o recetas (no solo buscar por categorías fijas) y prioriza a puestos tradicionales y locales sin visibilidad previa, no solo a grandes cadenas.
+
+Diferenciador:
+A diferencia de las apps tradicionales de delivery que dependen de buscadores estáticos y grandes cadenas, el nuestro actúa como un marchante digital. Se enfoca en una experiencia conversacional en tiempo real capaz de entender antojos complejos o recetas completas, dando prioridad y visibilidad a puestos locales y tianguis de la colonia que no cuentan con presencia digital previa.
+
+2. Arquitectura y herramientas (todavía por definir).
+Tipo de IA: LLM (chat conversacional) para interpretar el antojo, receta o platillo en lenguaje natural y clasificarlo en un tipo de comida; usando Prompt Engineering directo o function calling básico para consultar la base de datos de los puestos locales.
+Infraestructura: API en línea accesible (ej. API de Gemini u OpenAI) por su facilidad de integración vía HTTP/SDK y evitar sobrecargar el dispositivo del usuario.
+Backend: Node.js / Express (por su curva de aprendizaje rápida, gran cantidad de librerías disponibles y sintaxis sencilla en JavaScript).
+Frontend: React Native con Expo (permite crear y probar la app móvil rápido en el celular usando JavaScript sin configuraciones complejas de Android Studio) o React para prototipo web.
+Base de datos: Supabase o Firebase (PostgreSQL gestionado en la nube con interfaz visual tipo tabla, muy fácil de conectar con soporte nativo para ubicaciones y usuarios sin configurar servidores locales).
+
+3. Alcance y entregables
+Versión mínima (MVP): La aplicación móvil/web lista los puestos y comercios locales registrados previamente en la base de datos, permitiendo al usuario buscar y ver sus platillos, precios e información de contacto básica.
+
 Entregables finales:
-Código fuente (repositorio).
-Demo en vivo o video de la app funcionando.
+Código fuente (repositorio de GitHub).
+Aplicación funcional con el catálogo de locales registrados.
 
 Extras (si sobra tiempo):
 Modo de exploración usando GPS en tiempo real para orientar el mapa estelar según la posición física exacta del usuario.
